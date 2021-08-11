@@ -1,0 +1,586 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.blok_1 {
+    width: 100%;
+    height: 55px;
+    background: #344051;
+}
+
+.logo {
+    color: #fff;
+    font-size: 20px;
+    line-height: 51px;
+    padding-left: 180px;
+    float: left;
+}
+
+.menu {
+    float: left;
+    padding-left: 320px;
+}
+
+.menu li {
+    float: left;
+    line-height: 20px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 13px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.main {
+
+    width: 100%;
+    height: 1017px;
+    background: url(../img/Andrey.png)99% 100%/ auto 85% no-repeat, url(../img/Fon_1.png) center/ cover no-repeat;
+
+}
+
+.title__container {
+    float: left;
+    margin: 482px 0px 0px 220px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container > h1 {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.title__container > h4 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 14.6px;
+    color: #79818d;
+}
+
+.title__container > input {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 6px;
+    color: #6d7682;
+    font-size: 14px;
+    padding: 0px 16px;
+    margin: 58px 28px 0px 14px;
+    font-weight: bold;
+}
+
+.Zagolovok > h2 {
+    margin: 105px 0px 0px 675px;
+}
+
+.Cherta_1 {
+    width: 100%;
+    height: 55px;
+    background: url(../img/Cherta_1.png) no-repeat center;
+    margin-bottom: 50px;
+}
+
+.kartinka_1 {
+
+    width: 100%;
+    height: 203px;
+    background: url(../img/999.png) no-repeat center;
+    margin: 0px 0px 26px 0px;
+}
+
+.info1 {
+    color: #3f495a;
+    margin-left: 270px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.info2 {
+    color: #3f495a;
+    margin-left: 270px;
+    font-size: 16px;
+}
+
+button {
+    height: 40px;
+    text-align: center;
+    border: 2px solid #3f495a;
+    background: none;
+    border-radius: 6px;
+    color: #3f495a;
+    font-size: 14px;
+    padding: 0px 26px;
+    margin: 40px 28px 97px 650px;
+}
+
+.Chto_Ym {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url(../img/Fon_2.png) center/ cover no-repeat;
+    margin: 0px 0px 80px 0px;
+}
+
+.Chto_Ym_2 > h2 {
+    padding: 80px 0px 0px 660px;
+}
+
+.Cherta_2 {
+    width: 100%;
+    height: 28px;
+    background: url(../img/Cherta_1.png) no-repeat center;
+    margin-bottom: 80px;
+    margin-top: 0px;
+
+}
+
+.Znaki_1 {
+    width: 100%;
+    height: 50px;
+    background: url(../img/Grammofon.png)no-repeat 88%, url(../img/Raketa.png)no-repeat 62%, url(../img/Znak.png)no-repeat 507px, url(../img/Noyt.png)no-repeat 160px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.menu_1 li {
+    color: #cf7600;
+    float: left;
+    height: 20px;
+    margin: 20px 150px 0px 99px;
+    font-size: 17px;
+    list-style: none;
+    font-weight: bold;
+    margin: 0px 149px 10px 100px;
+}
+
+p1 {
+    float: left;
+    text-align: center;
+    margin: 10px 12px 80px 50px;
+}
+
+p2 {
+    float: left;
+    text-align: center;
+    margin: 10px 17px 50px 80px;
+}
+
+p3 {
+    float: left;
+    text-align: center;
+    margin: 10px 65px 50px 98px;
+}
+
+p4 {
+    float: left;
+    text-align: center;
+    margin: 10px 0px 50px 20px;
+}
+
+.Ceis_1 {
+    margin-bottom: 200px;
+}
+
+.Ceis > h2 {
+    padding: 80px 0px 0px 690px;
+}
+
+.Cherta_3 {
+    width: 100%;
+    height: 28px;
+    background: url(../img/Cherta_1.png) no-repeat;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    margin-left: 698px;
+}
+
+.Ceis > p {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.Foto_1 {
+    Width: 80%;
+    height: 650px;
+    background: url(../img/Foto.png)no-repeat center;
+    margin: 0px 0px 0px 180px;
+
+}
+
+.svjz {
+    float: left;
+    margin-right: 80px;
+}
+
+.svjz > h4 {
+    font-size: 18px;
+    margin: 40px 0px 15px 190px;
+}
+
+.svjz > a {
+    color: black;
+    margin: 0px 0px 0px 190px;
+}
+
+.svjz > input {
+    height: 45px;
+    text-align: center;
+    border: 5px solid #63b5ae;
+    background-color: #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin: 25px 0px 0px 189px;
+    padding: 0px 57px;
+}
+
+.nazvanie > h4 {
+    font-size: 20px;
+    margin: 42px 0px 0px 0px;
+}
+
+.nazvanie > p {
+    line-height: 2;
+    margin: 10px 0px 0px 0px;
+}
+
+.Raschet > h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.block_1 {
+    margin: 0px 0px 0px 300px;
+}
+
+.tip > h3 {
+    font-size: 23px;
+}
+
+#Punkt_1 {
+    color: #737373;
+    border-color: #eeeeee;
+    background-color: #eeeeee;
+    width: 890px;
+    height: 45px;
+    margin: 0px 0px 0px 0px;
+}
+
+#Punkt_2 {
+    color: #737373;
+    border-color: #eeeeee;
+    background-color: #eeeeee;
+    width: 890px;
+    height: 45px;
+    margin: 0px 0px 0px 0px;
+}
+
+#Punkt_3 {
+    color: #737373;
+    border-color: #eeeeee;
+    background-color: #eeeeee;
+    width: 890px;
+    height: 45px;
+    margin: 0px 0px 0px 0px;
+}
+
+.Polosa_1 {
+    Width: 100%;
+    height: 10px;
+    background: url(../img/Polosa.png) no-repeat;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.text1 {
+    font-weight: bold;
+}
+
+.text1 > h4 {
+    float: left;
+    margin: 0px 830px 0px 0px;
+}
+
+.text2 {
+    font-weight: bold;
+}
+
+.text2 > h4 {
+    float: left;
+    margin: 0px 793px 0px 0px;
+}
+
+.Statistic {
+    width: 100%;
+    height: 500px;
+    background: url(../img/PK.png)no-repeat;
+
+}
+
+.Statistic > h2 {
+    padding: 100px 0px 0px 600px;
+}
+
+.Cherta_4 {
+    width: 100%;
+    height: 28px;
+    background: url(../img/Cherta_1.png) no-repeat;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    margin-left: 708px;
+}
+
+.Znaki_2 {
+    width: 100%;
+    height: 50px;
+    background: url(../img/Kybok.png)no-repeat 88%, url(../img/Galochka.png)no-repeat 62%, url(../img/Galochka2.png)no-repeat 507px, url(../img/Smile.png)no-repeat 160px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.Podpis_1 > p1 {
+    font-weight: 1000;
+    font-size: 30px;
+    color: #323e4f;
+    float: left;
+    text-align: center;
+    margin: 30px 0px 0px 157px;
+}
+
+.Podpis_1 > p2 {
+    font-weight: 1000;
+    font-size: 30px;
+    color: #323e4f;
+    float: left;
+    text-align: center;
+    margin: 30px 0px 0px 278px;
+}
+
+.Podpis_1 > p3 {
+    font-weight: 1000;
+    font-size: 30px;
+    color: #323e4f;
+    float: left;
+    text-align: center;
+    margin: 30px 0px 0px 287px;
+}
+
+.Podpis_1 > p4 {
+    font-weight: 1000;
+    font-size: 30px;
+    color: #323e4f;
+    text-align: center;
+    margin: 30px 0px 0px 322px;
+}
+
+.Podpis_2 > p1 {
+    font-weight: bold;
+    color: #323e4f;
+    float: left;
+    text-align: center;
+    margin: 30px 12px 0px 90px;
+}
+
+.Podpis_2 > p2 {
+    font-weight: bold;
+    color: #323e4f;
+    float: left;
+    text-align: center;
+    margin: 30px 17px 0px 170px;
+}
+
+.Podpis_2 > p3 {
+    font-weight: bold;
+    color: #323e4f;
+    float: left;
+    text-align: center;
+    margin: 30px 65px 0px 180px;
+}
+
+.Podpis_2 > p4 {
+    font-weight: bold;
+    color: #323e4f;
+    text-align: center;
+    margin: 30px 0px 0px 130px;
+}
+
+
+.Otz {
+    padding: 0px 0px 80px 0px;
+}
+
+.Otz > h2 {
+    padding: 100px 0px 0px 687px;
+}
+
+.Cherta_5 {
+    width: 100%;
+    height: 28px;
+    background: url(../img/Cherta_1.png) no-repeat;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    margin-left: 708px;
+}
+
+.Foto_2 {
+    width: 100%;
+    height: 100px;
+    background: url(../img/Foto2.png) no-repeat;
+    margin: 0px 0px 38px 694px;
+}
+
+.Otz > p1 {
+    color: #243042;
+    text-align: center;
+    margin: 0px 0px 10px 450px;
+}
+
+.Otz > p2 {
+    color: #243042;
+    text-align: center;
+    margin: 40px 0px 10px 610px;
+}
+
+.tochki_1 {
+    width: 100%;
+    height: 20px;
+    background: url(../img/Tochka_Ser.png)no-repeat 73px, url(../img/Tochka_Ser.png)no-repeat 46px, url(../img/Tochka_or.png)no-repeat 17px;
+    margin: 140px 0px 38px 697px;
+}
+
+
+.Kontact {
+    color: #fff;
+    width: 100%;
+    height: 800px;
+    background: url(../img/Fon_Kru.png)no-repeat;
+}
+
+.Kontact > h2 {
+    padding: 80px 0px 0px 645px;
+}
+
+.Cherta_6 {
+    width: 100%;
+    height: 28px;
+    background: url(../img/Cherta_1.png) no-repeat;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-left: 708px;
+}
+
+.Kontact > p {
+    margin: 10px 0px 0px 400px;
+}
+
+.Znaki_3 {
+    width: 100%;
+    height: 35px;
+    background: url(../img/Trubka.png)no-repeat 980px, url(../img/Konvert.png)no-repeat 730px, url(../img/Geo.png)no-repeat 500px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.Ssilki_1 > a1 {
+    float: left;
+    padding: 0px 0px 0px 440px;
+}
+
+.Ssilki_1 > a2 {
+    margin: 0px 0px 0px 70px;
+}
+
+.Ssilki_1 > a3 {
+    margin: 0px 0px 0px 85px;
+}
+
+.Soobchenie > h2 {
+    margin: 40px 0px 40px 580px;
+}
+
+#Im {
+    border: 1px solid white;
+    opacity: 0.7;
+    width: 350px;
+    height: 35px;
+    float: left;
+    margin: 0px 0px 0px 370px;
+}
+
+#Fam {
+    border: 1px solid white;
+    opacity: 0.7;
+    width: 350px;
+    height: 35px;
+    float: left;
+    margin: 0px 0px 0px 37px;
+}
+
+#Text {
+    border: 1px solid white;
+    opacity: 0.7;
+    width: 745px;
+    height: 100px;
+    margin: 10px 0px 0px 370px;
+}
+
+#Knopka_1 {
+    float: left;
+    height: 40px;
+    text-align: center;
+    border: 3px solid #fff;
+    background: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0px 35px;
+    margin: 20px 28px 30px 660px;
+}
+
+.Soc_seti {
+    float: left;
+    width: 100%;
+    height: 40px;
+    background: url(../img/FB.png)no-repeat 600px, url(../img/Tvit.png)no-repeat 650px, url(../img/ball.png)no-repeat 700px, url(../img/Cat.png)no-repeat 750px, url(../img/Innst.png)no-repeat 800px, url(../img/IN.png)no-repeat 850px;
+}
+
+#geo_1 {
+    border: 1px;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 150px 0px 100px 650px;
+}
+
+.Posl {
+    width: 100%;
+    height: 350px;
+    background: url(../img/Karta_1.png)no-repeat;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background: #344051;
+}
+
+.Podval {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
