@@ -1,9 +1,33 @@
+/*
+#before-load {
+		  position: fixed;
+		  left: 0;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  background: #fff;
+		  z-index: 9999; 
+		}
+		#before-load i {
+			width: 70px;
+			height: 70px;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			background: url('preloader.gif') no-repeat 50% 50%;
+			margin: -35px 0 0 -35px;
+		}
+*/
+
+
 body {
     padding: 0;
     margin: 0;
 }
 
 h1 {
+    margin: 0;
+    padding: 0;
     margin: 0;
 }
 
@@ -15,6 +39,7 @@ body {
     width: 100%;
     height: 55px;
     background: #344051;
+    position: fixed;
 }
 
 .logo {
@@ -23,11 +48,39 @@ body {
     line-height: 51px;
     padding-left: 180px;
     float: left;
+    -webkit-animation: Andrey 3s;
+    -o-animation: Andrey 3s;
+    animation: Andrey 3s;
 }
 
 .menu {
     float: left;
     padding-left: 320px;
+}
+
+/*Для анимации меню навигации*/
+.menu li:nth-child(1) {
+    animation-delay: 1.1s;
+}
+
+.menu li:nth-child(2) {
+    animation-delay: 1.4s;
+}
+
+.menu li:nth-child(3) {
+    animation-delay: 1.7s;
+}
+
+.menu li:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.menu li:nth-child(5) {
+    animation-delay: 2.3s;
+}
+
+.menu li:nth-child(6) {
+    animation-delay: 2.6s;
 }
 
 .menu li {
@@ -38,14 +91,78 @@ body {
     font-size: 13px;
     text-transform: uppercase;
     list-style: none;
+    -webkit-animation: Punkts 0.1s forwards;
+    -o-animation: Punkts 0.1s forwards;
+    animation: Punkts 0.1s forwards;
+    opacity: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    transition: all 0.2s;
+    color: #fff;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited {
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: #e88604;
+    transform: scale(1.1);
+}
+
+.menu li a:active {
+    transform: scale(2);
 }
 
 .main {
-
     width: 100%;
     height: 1017px;
     background: url(../img/Andrey.png)99% 100%/ auto 85% no-repeat, url(../img/Fon_1.png) center/ cover no-repeat;
 
+}
+
+@keyframes Andrey {
+
+    /*Для логотипа*/
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes Punkts {
+
+    /*Для меню навигации*/
+    0% {
+        opacity: 0;
+        margin-top: -80px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+@keyframes Block_1 {
+
+    /*Анимация для первого блока*/
+    0% {
+        opacity: 0;
+        margin-left: -480px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 220px;
+    }
 }
 
 .title__container {
@@ -53,6 +170,13 @@ body {
     margin: 482px 0px 0px 220px;
     color: #2c384a;
     text-align: center;
+    opacity: 0;
+    -webkit-animation: Block_1 1.5s ease forwards;
+    -o-animation: Block_1 1.5s ease forwards;
+    animation: Block_1 1.5s ease forwards;
+    -webkit-animation-delay: 2.6s;
+    -o-animation-delay: 2.6s;
+    animation-delay: 2.6s;
 }
 
 .title__container > h1 {
@@ -79,6 +203,7 @@ body {
     margin: 58px 28px 0px 14px;
     font-weight: bold;
 }
+
 
 .Zagolovok > h2 {
     margin: 105px 0px 0px 675px;
@@ -520,6 +645,11 @@ p4 {
     margin: 0px 0px 0px 370px;
 }
 
+#Im:focus {
+    border: 3px solid #d1bd28;
+    box-shadow: 0px 0px 20px rgba(209, 189, 40, 5);
+}
+
 #Fam {
     border: 1px solid white;
     opacity: 0.7;
@@ -529,6 +659,11 @@ p4 {
     margin: 0px 0px 0px 37px;
 }
 
+#Fam:focus {
+    border: 3px solid #d1bd28;
+    box-shadow: 0px 0px 20px rgba(209, 189, 40, 5);
+}
+
 #Text {
     border: 1px solid white;
     opacity: 0.7;
@@ -536,6 +671,12 @@ p4 {
     height: 100px;
     margin: 10px 0px 0px 370px;
 }
+
+#Text:focus {
+    border: 3px solid #d1bd28;
+    box-shadow: 0px 0px 20px rgba(209, 189, 40, 5);
+}
+
 
 #Knopka_1 {
     float: left;
@@ -564,7 +705,7 @@ p4 {
     height: 40px;
     font-weight: bold;
     text-align: center;
-    margin: 150px 0px 100px 650px;
+    margin: 150px 0px 100px 669px;
 }
 
 .Posl {
