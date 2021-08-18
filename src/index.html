@@ -12,11 +12,12 @@
 </head>
 
 <body>
- 
-   <div id="before-load">
-    <i></i>
-  </div>
-
+<!-- Прелоадер -->
+    <div id="before-load">
+        <i></i>
+    </div>
+<!-- Прелоадер -->
+   
     <header>
         <nav class="blok_1">
             <div class="logo">Андрей Браун</div>
@@ -94,10 +95,12 @@
             <div class="Foto_1"></div>
             <div class="svjz">
                 <h4>CLIENT</h4>
-                <a href="http://...">Какая-то компания</a>
+                <a href="http://..." class="site_1">Какая-то компания</a>
                 <h4>WEBSITE</h4>
-                <a href="http://...">http://www.somedomain.comBR</a><br>
-                <input type="submit" value="VISIT LIVE SITE">
+                <a href="http://..." class="site_2">http://www.somedomain.comBR</a><br>
+                <div class="wrap">
+                <input type="button" value="VISIT LIVE SITE">
+                </div>
             </div>
             <div class="nazvanie">
                 <h4>Название проекта</h4>
@@ -229,6 +232,24 @@
             <p>Copyright@2021 Андрей Браун, Design by Web</p>
         </div>
     </footer>
+    
+    <!-- Код для прелоадера -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(window).load(function() {
+            $('#before-load').find('i').fadeOut().end().delay(400).fadeOut('slow');
+        });
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(window).load(function() {
+            $('#before-load').find('i').fadeOut().end().delay(400).fadeOut('slow');
+        });
+
+    </script>
+    <!-- Код для прелоадера -->
+    
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 </html>
