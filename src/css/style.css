@@ -129,7 +129,7 @@ body {
 /*----------------------НАЧАЛО ПЕРВОГО БЛОКА----------------------------------"*/
 .main {
     width: 100%;
-    height:705px;
+    height:100vh;
     background: url(../img/Andrey.png)99% 100%/ auto 85% no-repeat, url(../img/Fon_1.png) center/ cover no-repeat;
 
 }
@@ -263,11 +263,7 @@ body {
         background: rgba(0, 0, 0, 0.4);
     }
 }
-@media(min-width:1920px){
-    .main{
-        height: 1017px;
-    }
-}
+
 
 /*------Конец------------*/
 /*----------------------КОНЕЦ ПЕРВОГО БЛОКА----------------------------------"*/
