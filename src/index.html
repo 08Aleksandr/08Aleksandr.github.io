@@ -10,6 +10,7 @@
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>MyFirstSite</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -31,12 +32,12 @@
                     <div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
                         <div class="menu">
                             <ul>
-                                <li><a class="navigations" href="#">Обо мне</a></li>
-                                <li><a class="navigations" href="#">Услуги</a></li>
-                                <li><a class="navigations" href="#">Кейсы</a></li>
-                                <li><a class="navigations" href="#">Прайс</a></li>
-                                <li><a class="navigations" href="#">Отзывы</a></li>
-                                <li><a class="navigations" href="#">Контакты</a></li>
+                                <li><a class="navigations" href="#Obo_mne">Обо мне</a></li>
+                                <li><a class="navigations" href="#Yslygi">Услуги</a></li>
+                                <li><a class="navigations" href="#Keis">Кейсы</a></li>
+                                <li><a class="navigations" href="#Prise">Прайс</a></li>
+                                <li><a class="navigations" href="#Otz">Отзывы</a></li>
+                                <li><a class="navigations" href="#Kontact">Контакты</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,12 +48,12 @@
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Обо мне</a></li>
-                                <li><a class="dropdown-item" href="#">Услуги</a></li>
-                                <li><a class="dropdown-item" href="#">Кейсы</a></li>
-                                <li><a class="dropdown-item" href="#">Прайс</a></li>
-                                <li><a class="dropdown-item" href="#">Отзывы</a></li>
-                                <li><a class="dropdown-item" href="#">Контакты</a></li>
+                                <li><a class="dropdown-item" href="#Obo_mne">Обо мне</a></li>
+                                <li><a class="dropdown-item" href="#Yslygi">Услуги</a></li>
+                                <li><a class="dropdown-item" href="#Keis">Кейсы</a></li>
+                                <li><a class="dropdown-item" href="#Prise">Прайс</a></li>
+                                <li><a class="dropdown-item" href="#Otz">Отзывы</a></li>
+                                <li><a class="dropdown-item" href="#Kontact">Контакты</a></li>
                             </ul>
                         </div>
                     </div>
@@ -76,12 +77,11 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!--Конец первого блока-->
 
     <!--Начало блока Обо мне-->
-    <nav>
+    <nav id="Obo_mne">
         <div class="Zagolovok">
             <div class="container  h-100">
                 <div class="gx-0 row align-items-center h-100">
@@ -89,10 +89,12 @@
                         <div class="tittle__container_2 ">
                             <h2>ОБО МНЕ</h2>
                             <div class="Cherta_1"></div>
-                            <div class="kartinka_1"></div>
-                            <div class="info1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo incidunt voluptate eveniet quae, neque vel fugiat consequuntur aperiam! Facere <br>qui pariatur repellat! Quasi nulla quos odio expedita assumenda quas, excepturi ipsa minima deserunt.
+                            <div class="kartinka_1 element-animation "></div>
+                            <div class="info1">
+                                <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo incidunt voluptate eveniet quae, neque vel fugiat consequuntur aperiam! Facere <br>qui pariatur repellat! Quasi nulla quos odio expedita assumenda quas, excepturi ipsa minima deserunt.</p>
                             </div> <br>
-                            <div class="info2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aspernatur consectetur autem quam, dolor dolorem eligendi amet ab sunt assumenda <br>earum aperiam. Ipsam, doloribus rerum numquam minima aperiam, eveniet! Id cum, labore <br>
+                            <div class="info2">
+                                <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aspernatur consectetur autem quam, dolor dolorem eligendi amet ab sunt assumenda <br>earum aperiam. Ipsam, doloribus rerum numquam minima aperiam, eveniet! Id cum, labore <br></p>
                             </div>
                             <div class="button_1">
                                 <button>
@@ -100,6 +102,38 @@
                                     Скачать резюме
                                 </button>
                             </div>
+
+
+
+                            <div class="col-xl-12 text-center">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="modal">
+                                    Модальное окно
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered ">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="staticBackdropLabel">Привет! &#128512; </h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Как твои дела? Хорошо всё?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Да! &#128522;</button>
+                                                <button type="button" class="btn btn-primary">Нет &#128529; </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
                         </div>
                     </div>
                 </div>
@@ -111,7 +145,7 @@
 
 
     <!--Начало блока Что я умею-->
-    <nav class="Chto_Ym">
+    <nav class="Chto_Ym" id="Yslygi">
         <div class="container">
             <div class="Chto_Ym_2">
                 <div class="col-xl-12 text-center">
@@ -126,7 +160,7 @@
                         <p>
                             <font color="#cf7600">Веб-дизайн</font>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quibusdam, facilis repellat necessitatibus.</p> <br>
+                        <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quibusdam, facilis repellat necessitatibus.</p> <br>
                     </div>
                     <div class="col-xl-3 col-lg-11  text-center">
                         <div class="col-xl-12">
@@ -135,7 +169,7 @@
                         <p>
                             <font color="#cf7600">Разработка</font>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vitae, natus.</p> <br>
+                        <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, vitae, natus.</p> <br>
                     </div>
                     <div class="col-xl-3  col-lg-11  text-center">
                         <div class="col-xl-12">
@@ -144,7 +178,7 @@
                         <p>
                             <font color="#cf7600">СЕО-Оптимизация</font>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.br Dolores, porro sapiente consequuntur. Quasi, adipisci, eaque.</p> <br>
+                        <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit.br Dolores, porro sapiente consequuntur. Quasi, adipisci, eaque.</p> <br>
                     </div>
                     <div class="col-xl-3  col-lg-11  text-center">
                         <div class="col-xl-12">
@@ -153,7 +187,7 @@
                         <p>
                             <font color="#cf7600">Маркетинг</font>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, super consectetur adipisicing elit. Repellat pariatur eos at delectus.</p> <br>
+                        <p class="element-animation">Lorem ipsum dolor sit amet, super consectetur adipisicing elit. Repellat pariatur eos at delectus.</p> <br>
                     </div>
                 </div>
             </div>
@@ -162,18 +196,41 @@
     <!--Конец блока Что я умею-->
 
     <!--Начало блока Кейсы-->
-    <nav class="Ceis_1">
+    <nav class="Ceis_1" id="Keis">
         <div class="container">
             <div class="col-xl-12 text-center">
                 <h2>КЕЙСЫ</h2>
                 <div class="Cherta_3"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium placeat suscipit corporis, vero. Labore, corporis ipsam doloremque</p>
+                <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusantium placeat suscipit corporis, vero. Labore, corporis ipsam doloremque</p>
             </div>
-            <div class="col-xl-12">
 
-                <img src="img/Foto.png" class="img-fluid" alt="...">
-                <!-- <div class="Foto_1"></div>-->
 
+
+            <div id="carouselExampleIndicators" class="carousel slide element-animation" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slide_1.jpg" class="d-block w-100 image" alt="..." tabindex="0">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide_2.jpg" class="d-block w-100 image" alt="..." tabindex="0">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slide_3.jpg" class="d-block w-100 image" alt="..." tabindex="0">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
             </div>
 
             <div class="row Client_1">
@@ -191,21 +248,17 @@
                 <div class="col-xl-9">
                     <div class="nazvanie">
                         <h4>Название проекта</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam voluptatum nisi magnam magni a enim nemo voluptatibus dolorum culpa cupiditate amet labore tempore, adipisci quibusdam facere, ad autem dicta! Harum fugit sit quae nobis odio nihil dolore dolores, expedita, quaerat quibusdam voluptatem aliquid officiis dicta eligendi.
+                        <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam voluptatum nisi magnam magni a enim nemo voluptatibus dolorum culpa cupiditate amet labore tempore, adipisci quibusdam facere, ad autem dicta! Harum fugit sit quae nobis odio nihil dolore dolores, expedita, quaerat quibusdam voluptatem aliquid officiis dicta eligendi.
                         </p>
                     </div>
                 </div>
             </div>
-
-
-
-
         </div>
     </nav>
     <!--Конец блока Кейсы-->
 
     <!--Начало блока Расчет -->
-    <nav class="Rasschet_1">
+    <nav class="Rasschet_1" id="Prise">
         <div class="h-100 container">
             <div class="row justify-content-center">
                 <div class="col-xl-12">
@@ -216,25 +269,25 @@
                         <div class="col-xl-10 offset-xl-1">
                             <div class="block_1">
                                 <h3>ТИП САЙТА</h3>
-                                <select class="form-select Punkt_1" aria-label="Default select example">
-                                    <option selected>Выберите пункт...</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                <select class="form-select Punkt_1" aria-label="Default select example" id="Kalk_1">
+                                    <option selected value="Site_0">Выберите тип сайта:</option>
+                                    <option value="Site_1">Визитка</option>
+                                    <option value="Site_2">Корпоративный</option>
+                                    <option value="Site_3">Магазин</option>
                                 </select>
                                 <h3>ДИЗАЙН</h3>
-                                <select class="form-select Punkt_2" aria-label="Default select example">
-                                    <option selected>Выберите пункт...</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                <select class="form-select Punkt_2" aria-label="Default select example" id="Kalk_2">
+                                    <option selected value="Disine_0">Выберите дизайн сайта:</option>
+                                    <option value="Disine_1">Минимализм</option>
+                                    <option value="Disine_2">Рисованый</option>
+                                    
                                 </select>
                                 <h3>АДАПТИВНОСТЬ</h3>
-                                <select class="form-select Punkt_3" aria-label="Default select example">
-                                    <option selected>Выберите пункт...</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                <select class="form-select Punkt_3" aria-label="Default select example" id="Kalk_3">
+                                    <option selected id="Adaptivnost_0">Выберите верстку сайта:</option>
+                                    <option value="Adaptivnost_1">Фиксированная</option>
+                                    <option value="Adaptivnost_2">Резиновая</option>
+                                    
                                 </select>
                                 <div class="Polosa_1"></div>
                                 <div class="row end_1">
@@ -246,8 +299,8 @@
                                     </div>
                                     <div class="col-4 offset-6 text-end">
                                         <div class="text2">
-                                            <p>0</p>
-                                            <p>0</p>
+                                            <p id="Sroki">0</p>
+                                            <p id="Stoimost">0</p>
                                         </div>
                                     </div>
                                 </div>
@@ -274,28 +327,28 @@
                         <div class="col-xl-12">
                             <div class="Znaki_5 "></div>
                         </div>
-                        <p style="font-size: 30px">120</p>
+                        <p style="font-size: 30px" class="num_1">120</p>
                         <p>СЧАСТЛИВЫХ КЛИЕНТОВ</p> <br>
                     </div>
                     <div class="col-xl-3 col-lg-11  text-center">
                         <div class="col-xl-12">
                             <div class="Znaki_6"></div>
                         </div>
-                        <p style="font-size: 30px">4,600</p>
+                        <p style="font-size: 30px" class="num_2">4,600</p>
                         <p>ЧАСОВ РАБОТЫ</p> <br>
                     </div>
                     <div class="col-xl-3  col-lg-11  text-center">
                         <div class="col-xl-12">
                             <div class="Znaki_7"></div>
                         </div>
-                        <p style="font-size: 30px">340</p>
+                        <p style="font-size: 30px" class="num_3">340</p>
                         <p>ПРОЕКТОВ ЗАВЕРШЕНО</p> <br>
                     </div>
                     <div class="col-xl-3  col-lg-11  text-center">
                         <div class="col-xl-12">
                             <div class="Znaki_8"></div>
                         </div>
-                        <p style="font-size: 30px">23</p>
+                        <p style="font-size: 30px" class="num_4">23</p>
                         <p>НАГРАД ПОЛУЧЕНО</p> <br>
                     </div>
                 </div>
@@ -307,22 +360,54 @@
 
 
     <!--Начало блока Отзывы-->
-    <nav>
+    <nav id="Otz">
         <div class="Otz">
             <div class="container">
                 <div class="row">
+
                     <div class="col-xl-12 text-center otz_1">
                         <h2>ОТЗЫВЫ</h2>
                         <div class="Cherta_5"></div>
-                        <div class="Foto_2"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ullam soluta ipsa, <br>cumque nulla doloribus.</p><br>
-                        <p2><b>Михаил</b>, ген директор ПАО "Газпром".</p2>
-                    </div>
 
-                    <div class="row justify-content-center">
-                        <div class="col-xl-1 col-lg-1">
-                            <div class="tochki_1"></div>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active"  data-bs-interval="4000">
+                                    <div class="Foto_2 element-animation"></div>
+                                    <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ullam soluta ipsa, <br>cumque nulla doloribus.</p><br>
+                                    <p2><b>Михаил</b>, ген директор ПАО "Газпром".</p2>
+                                </div>
+                                
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="Foto_21 element-animation"></div>
+                                    <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ullam soluta ipsa, <br>cumque nulla doloribus.</p><br>
+                                    <p2><b>Михаил</b>, ген директор ПАО "Газпром".</p2>
+                                </div>
+                                
+                                <div class="carousel-item" data-bs-interval="4000">
+                                    <div class="Foto_22 element-animation"></div>
+                                    <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae ullam soluta ipsa, <br>cumque nulla doloribus.</p><br>
+                                    <p2><b>Михаил</b>, ген директор ПАО "Газпром".</p2>
+                                </div>
+                                
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Следующий</span>
+                            </button>
                         </div>
+
+                        <div><p><br><br><br></p></div>
+
+
                     </div>
                 </div>
             </div>
@@ -333,14 +418,14 @@
 
 
     <!------Начало блока Мои контакты----------->
-    <nav>
+    <nav id="Kontact">
         <div class="Kontact">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12 text-center">
                         <h2>МОИ КОНТАКТЫ</h2><BR>
                         <div class="Cherta_6"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis exercitationem similique eligendi.</p></BR>
+                        <p class="element-animation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis exercitationem similique eligendi.</p></BR>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -417,19 +502,29 @@
                 </div>
             </div>
         </div>
-
     </footer>
     <!--Конец блока подвал-->
+
+    <!--Начало подключения JQuery-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--Конец подключения JQuery-->
+
+    <!--Начало Animation-->
+    <script src="js/Animations.js"></script>
+    <!-- Конец Animation-->
 
     <!--Начало Код для меню навигации (выпадающий список)-->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--Конец Код для меню навигации (выпадающий список)-->
 
-   <!--Код для подключения JS-->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!--Код для подключения JS-->
     <script src="js/MyScript.js"></script>
-   <!--Код для подключения JS-->
-   
-   
+    <!--Код для подключения JS-->
+
+
     <!--Начало Код для прелоадера -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
