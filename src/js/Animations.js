@@ -106,48 +106,6 @@ function onEntry(entry) {
     });
 }
 
-/*$(document).ready(function () {
-    $(function () {
-        var Summ = 0;
-        var Srok = 0;
-        var tipSrok = {
-            Site_0: Srok = 0,
-            Site_1: Srok = 5,
-            Site_2: Srok = 10,
-            Site_3: Srok = 15
-        };
-
-        var tipStoim = {
-            Site_0: Summ = 0,
-            Site_1: Summ = 5000,
-            Site_2: Summ = 10000,
-            Site_3: Summ = 15000
-        };
-
-        var disSrok_1 = {
-            Disine_0: Srok = 0,
-            Disine_1: Srok = 5 + tipSrok.Site_1,
-        };
-        $('#Kalk_2').change(function () {
-            var a = $(this).val();
-            $('#Sroki').html(disSrok_1[a]);
-        });
-    });
-
-    $(function () {
-
-        var disSrok_2 = {
-            Disine_0: Srok = 0,
-            Disine_1: Srok = 5 + tipSrok.Site_2,
-        };
-        $('#Kalk_2').change(function () {
-            var a = $(this).val();
-            $('#Sroki').html(disSrok_2[a]);
-        });
-    })
-});*/
-
-
 $(document).ready(function () {
     $(function () {
         var Summ = 0;
@@ -188,6 +146,16 @@ $(document).ready(function () {
             Adaptivnost_2: Summ = 3000 + disStoim.Disine_2 + ' - В рублях'
         };
 
+        $('#Kalk_1').change(function () {
+            var a = $(this).val();
+            $('#Sroki').html(tipSrok[a]);
+            $('#Stoimost').html(tipStoim[a]);
+        });
+        $('#Kalk_2').change(function () {
+            var a = $(this).val();
+            $('#Sroki').html(disSrok[a]);
+            $('#Stoimost').html(disStoim[a]);
+        });
         $('#Kalk_3').change(function () {
             var a = $(this).val();
             $('#Sroki').html(adaSrok[a]);
@@ -209,7 +177,7 @@ $(document).ready(function () {
         };
         var tipStoim = {
             Site_0: Summ = 0,
-            Site_2: Summ = 2000,
+            Site_2: Summ = 2000
         };
 
         var disSrok = {
@@ -238,7 +206,16 @@ $(document).ready(function () {
             Adaptivnost_1: Summ = 2000 + disStoim.Disine_2 + ' - В рублях',
             Adaptivnost_2: Summ = 3000 + disStoim.Disine_2 + ' - В рублях'
         };
-
+        $('#Kalk_1').change(function () {
+            var a = $(this).val();
+            $('#Sroki').html(tipSrok[a]);
+            $('#Stoimost').html(tipStoim[a]);
+        });
+        $('#Kalk_2').change(function () {
+            var a = $(this).val();
+            $('#Sroki').html(disSrok[a]);
+            $('#Stoimost').html(disStoim[a]);
+        });
         $('#Kalk_3').change(function () {
             var a = $(this).val();
             $('#Sroki').html(adaSrok[a]);
@@ -289,7 +266,16 @@ $(document).ready(function () {
             Adaptivnost_1: Summ = 2000 + disStoim.Disine_2 + ' - В рублях',
             Adaptivnost_2: Summ = 3000 + disStoim.Disine_2 + ' - В рублях'
         };
-
+        $('#Kalk_1').change(function () {
+            var a = $(this).val();
+            $('#Sroki').html(tipSrok[a]);
+            $('#Stoimost').html(tipStoim[a]);
+        });
+        $('#Kalk_2').change(function () {
+            var a = $(this).val();
+            $('#Sroki').html(disSrok[a]);
+            $('#Stoimost').html(disStoim[a]);
+        });
         $('#Kalk_3').change(function () {
             var a = $(this).val();
             $('#Sroki').html(adaSrok[a]);
@@ -297,4 +283,3 @@ $(document).ready(function () {
         });
     });
 });
-
