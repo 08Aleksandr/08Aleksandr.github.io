@@ -161,6 +161,8 @@ $(document).ready(function () {
             $('#Sroki').html(adaSrok[a]);
             $('#Stoimost').html(adaStoim[a]);
         });
+        parseInt(tipSrok[a]) + parseInt(disSrok[a]) + parseInt(adaSrok[a]);
+        parseInt(tipStoim[a]) + parseInt(disStoim[a]) + parseInt(adaStoim[a]);
     });
 });
 
@@ -221,6 +223,8 @@ $(document).ready(function () {
             $('#Sroki').html(adaSrok[a]);
             $('#Stoimost').html(adaStoim[a]);
         });
+        parseInt(tipSrok[a]) + parseInt(disSrok[a]) + parseInt(adaSrok[a]);
+        parseInt(tipStoim[a]) + parseInt(disStoim[a]) + parseInt(adaStoim[a]);
     });
 });
 
@@ -281,5 +285,7 @@ $(document).ready(function () {
             $('#Sroki').html(adaSrok[a]);
             $('#Stoimost').html(adaStoim[a]);
         });
+        parseInt(tipSrok[a]) + parseInt(disSrok[a]) + parseInt(adaSrok[a]);
+        parseInt(tipStoim[a]) + parseInt(disStoim[a]) + parseInt(adaStoim[a]);
     });
 });
