@@ -102,9 +102,10 @@ function onEntry(entry) {
     entry.forEach(change => {
         if (change.isIntersecting) {
             change.target.classList.add('show-animation');
-        }
+        };
     });
-}
+};
+
 
 $(document).ready(function () {
     $(function () {
@@ -166,9 +167,6 @@ $(document).ready(function () {
     });
 });
 
-
-
-
 $(document).ready(function () {
     $(function () {
         var Summ = 0;
@@ -227,9 +225,6 @@ $(document).ready(function () {
         parseInt(tipStoim[a]) + parseInt(disStoim[a]) + parseInt(adaStoim[a]);
     });
 });
-
-
-
 
 $(document).ready(function () {
     $(function () {
