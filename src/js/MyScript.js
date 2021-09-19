@@ -1,11 +1,11 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
     $('form').on('submit', function (event) {
         if ($("#text").val() == "") {
             event.preventDefault();
             alert('Пожалуйста проверьте заполнение всех полей!');
         }
     });
-});
+});*/
 
 $(document).ready(function () {
     
